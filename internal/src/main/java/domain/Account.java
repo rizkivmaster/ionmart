@@ -1,4 +1,4 @@
-package com.ionmart.domain;
+package domain;
 /**
 *   TODO change password with something moroe secure, like a hash key?
  */
