@@ -1,4 +1,4 @@
-package com.ionmart.domain
+package com.ionmart.domain;
 
 public class Product{
 	private final String _id;
@@ -9,10 +9,5 @@ public class Product{
 		this._id = id;
 		this._name = name;
 		this._brand = brand;
-	}
-
-	public Product(Product other)
-	{
-		Product(other._id,other._name,other._brand);
 	}
 }
